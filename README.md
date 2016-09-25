@@ -7,7 +7,7 @@ Unofficial document for Unlimited Hand.
 |       Function       |       Define       |     Port    |                          Description                           |
 |----------------------|--------------------|-------------|----------------------------------------------------------------|
 | Vibration Motor      | vibrationMotor_PIN | digital 13  | Low: Move, High: Stop.                                         |
-| Photo Reflector LED  | PR_LED_PIN         | digital 8   | Low: Off, High: On.                                            |
+| Photo Reflector LED  | PR_LED_PIN         | digital 8   | Low: On, High: Off.                                            |
 | Photo Reflector Recv | N/A                | analog 0-7  | Analog value.                                                  |
 | Multiplexer for EMS  | EMS_S[0,1,2]_PIN   | digital 4-6 | Port selection for EMS by 3bit.                                |
 | EMS                  | EMS_EN_PIN         | digital 7   | Low: Low pulse(off?), High: High pulse.                        |
