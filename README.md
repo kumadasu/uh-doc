@@ -4,14 +4,14 @@ Unofficial document for Unlimited Hand.
 # Hardware
 
 ## Arduino Pins
-|       Function       |       Define       |     Port    |                          Description                           |
-|----------------------|--------------------|-------------|----------------------------------------------------------------|
-| Vibration Motor      | vibrationMotor_PIN | digital 13  | Low: Move, High: Stop.                                         |
-| Photo Reflector LED  | PR_LED_PIN         | digital 8   | Low: On, High: Off.                                            |
-| Photo Reflector Recv | N/A                | analog 0-7  | Analog value.                                                  |
-| Multiplexer for EMS  | EMS_S[0,1,2]_PIN   | digital 4-6 | Port selection for EMS by 3bit.                                |
-| EMS                  | EMS_EN_PIN         | digital 7   | Low: Low pulse(off?), High: High pulse.                        |
-| Charge for EMS?      | BOOSTER_SWITCH_PIN | digital 9   | Low: Off, High: Charge.  Charge time seems related to voltage. |
+|       Function       |       Define       |  Port |                          Description                           |
+|----------------------|--------------------|-------|----------------------------------------------------------------|
+| Multiplexer for EMS  | EMS_S[0,1,2]_PIN   | D4-D6 | Port selection for EMS by 3bit.                                |
+| EMS                  | EMS_EN_PIN         | D7    | Low: Low pulse(off?), High: High pulse.                        |
+| Photo Reflector LED  | PR_LED_PIN         | D8    | Low: On, High: Off.                                            |
+| Charge for EMS?      | BOOSTER_SWITCH_PIN | D9    | Low: Off, High: Charge.  Charge time seems related to voltage. |
+| Vibration Motor      | vibrationMotor_PIN | D13   | Low: Move, High: Stop.                                         |
+| Photo Reflector Recv | N/A                | A0-A7 | Analog value.                                                  |
 
 ## I2C
 |    IC    |        Define       | I2C addr |
